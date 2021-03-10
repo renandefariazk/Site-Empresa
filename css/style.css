@@ -1,0 +1,68 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+:root{
+    --laranja-padrao:rgb(224, 130, 6);
+}
+header.headerContainer{
+    height: 60px;
+    width: 100vw;
+    background-color: var(--laranja-padrao);
+    /* talvez um display flex */
+}
+.headerContainerFirst{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul.navUlContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+nav ul li.navLi{
+    height: 20px;
+    width: 20px;
+    background-color: aliceblue;
+}
+.headerContainerSecond{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+div.contaContainer{
+    position: relative;
+}
+div.contaAba{
+    display: none;
+    position: absolute;
+    background-color: var(--laranja-padrao);
+    bottom: -40px;
+    z-index: 200;
+    cursor: pointer;
+    /* height: 100px;
+    width: 100px; */
+}
+div.contaAba.ativo{
+    display: flex; /*display: block*/
+    flex-direction: row;
+}
+ul .liStyleNone{
+    list-style: none;
+    text-align: center;
+}
+.mouseOverRed{
+animation-name: overRed;
+animation-duration: 2s;
+animation-fill-mode: both;
+}
+@keyframes overRed{
+    0%{background-color: var(--laranja-padrao);}
+    100%{background-color: red;}
+}

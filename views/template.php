@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Site</title>
 </head>
 <body>
@@ -20,7 +20,15 @@
             </nav>
         </div>
         <div class="headerContainerSecond">
-            <div><p>Conta</p></div>
+            <div class="contaContainer">
+                <p>Conta</p>
+                <div class="contaAba">
+                    <ul>
+                        <li class="liStyleNone">Criar</li>
+                        <li class="liStyleNone">Status</li>
+                    </ul>
+                </div>
+            </div>
             <div><p>Duvidas</p></div>
             <div><p>Contato</p></div>
         </div>
@@ -32,6 +40,6 @@
     <footer>
     
     </footer>
-    <script type='module' src="script.js"></script>
+    <script type='module' src="./js/script.js"></script>
 </body>
 </html>

@@ -23,8 +23,7 @@ class core{
             $method = 'index';
             $param = array();
         }
-        //$class tem que ser instaciada antes de coloca no call
-        // $class = new $class();
-        call_user_func_array(array($class,$method),$param);
+        $a = new $class();
+        call_user_func_array(array($a,$method),$param);
     }
 }

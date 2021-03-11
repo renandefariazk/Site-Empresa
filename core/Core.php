@@ -14,6 +14,8 @@ class core{
             }
             if($url > 0){
                 $param = $url;
+                // resolveria o problema do jeito abaixo
+                // $param = array($url);
             } else{
                 $param = array();
             }

@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+div.homeMain{
+    display: flex;
+    flex-direction: column;
+}
+.homeCarosel{
+    height: 250px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeCenter{
+    display: flex;
+    flex-direction: row;
+}
+.homeMetade{
+    height: 400px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homePMetade{
+    font-family: 'Times New Roman', Times, serif;
+    width: 70%;
+}
+.homeMetadeColor{
+    background-color: rgb(224, 130, 6);
+}
+p.pAberto{
+    color: green;
+    font-weight: bold;
+}
+p.pFechado{
+    color: red;
+    font-weight: bold;
+}
+section.homeEnd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+div.homeDivLocal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.homeFotoLocal{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+p.homeFontLocal{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    /* font-size: large; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}

@@ -1,6 +1,6 @@
 <div class="homeMain">
     <section class="homeCarosel">
-        <h1>carosel</h1> 
+        <h1>carosel</h1>
         <!-- criar um carosel -->
     </section>
     <section class="homeCenter">

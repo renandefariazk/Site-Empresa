@@ -1,4 +1,6 @@
 @import url("home.css");
+@import url("contaCriar.css");
+@import url("status.css");
 *{
     padding:0px;
     margin:0px;

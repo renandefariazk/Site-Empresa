@@ -8,15 +8,15 @@ class core{
             $class = array_unshift($url);
             if($url > 0){
                 $method = array_unshift($url);
+                if($url > 0){
+                    $param = $url;
+                    // resolveria o problema do jeito abaixo
+                    // $param = array($url);
+                } else{
+                    $param = array();
+                }
             } else{
                 $method = 'index';
-                $param = array();
-            }
-            if($url > 0){
-                $param = $url;
-                // resolveria o problema do jeito abaixo
-                // $param = array($url);
-            } else{
                 $param = array();
             }
         }
@@ -29,3 +29,4 @@ class core{
         call_user_func_array(array($a,$method),$param);
     }
 }
+// so vai funcionar o GET[url] com htaccess

@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+section.centerStatus{
+    display: flex;
+    flex-direction: column;
+}
+div.tituloContainer{
+    background-color: rgb(224, 130, 6);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}
+div.infoStatus{
+    background-color: white;
+    border-radius: 15px;
+}
+.infoContainer{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+div.infoColor{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+}

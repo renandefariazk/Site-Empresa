@@ -69,3 +69,8 @@ animation-fill-mode: both;
     0%{background-color: var(--laranja-padrao);}
     100%{background-color: red;}
 }
+/* melhorar isso apos modificar o Core */
+a.textDecorationNone ,p.textDecorationNone{
+    text-decoration: none;
+    font-weight: bold;
+}

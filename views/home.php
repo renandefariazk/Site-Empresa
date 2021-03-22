@@ -1,6 +1,7 @@
 <div class="homeMain">
     <section class="homeCarosel">
-        <h1>carosel</h1>
+        <h1>carousel</h1>
+        <div class="fototeste"></div>
         <!-- criar um carosel -->
     </section>
     <section class="homeCenter">
@@ -20,15 +21,15 @@
     <section class="homeEnd">
         <!-- foto redonda com local de atuação e nome em baixo -->
         <div class="homeDivLocal">
-            <div class="homeFotoLocal"><img src="" alt="local"></div>
+            <div class="homeFotoLocal"><img src="../img/fotoExemplo1.jpg" alt="local"></div>
             <p class="homeFontLocal">Nome do Local</p>
         </div>
         <div>
-            <div class="homeFotoLocal"><img src="" alt="local"></div> 
+            <div class="homeFotoLocal"><img src="../img/fotoExemplo2.jpg" alt="local"></div> 
             <p class="homeFontLocal">Nome do local</p> 
         </div>
         <div>
-            <div class="homeFotoLocal"><img src="" alt="local"></div>
+            <div class="homeFotoLocal"><img src="../img/fotoExemplo3.jpeg" alt="local"></div>
             <p class="homeFontLocal">Nome do Local</p>
         </div>
     </section>

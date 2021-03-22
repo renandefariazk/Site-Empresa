@@ -21,16 +21,16 @@
         </div>
         <div class="headerContainerSecond">
             <div class="contaContainer">
-                <p>Conta</p>
+                <p class="textDecorationNone">Conta</p>
                 <div class="contaAba">
                     <ul>
-                        <li class="liStyleNone">Criar</li>
-                        <li class="liStyleNone">Status</li>
+                        <li class="liStyleNone"><a href="http://localhost/Projeto%20Site%20Empresa/index.php?url=criarController/index" class="textDecorationNone">Criar</a></li>
+                        <li class="liStyleNone"><a href="" class="textDecorationNone">Status</a></li>
                     </ul>
                 </div>
             </div>
-            <div><p>Duvidas</p></div>
-            <div><p>Contato</p></div>
+            <div><a href="" class="textDecorationNone"><p>Duvidas</p></a></div>
+            <div><a href="" class="textDecorationNone"><p>Contato</p></a></div>
         </div>
     </header>
     <main>

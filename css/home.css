@@ -9,7 +9,7 @@ div.homeMain{
 }
 .homeCarosel{
     height: 250px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

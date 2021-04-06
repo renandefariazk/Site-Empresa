@@ -6,7 +6,7 @@
              facilis suscipit libero architecto cupiditate nostrum
             quis porro doloribus expedita.</p></div>
         <div class="direitaRegistro">
-            <form action="" method="post" class="formDireita">
+            <form action="http://localhost/Projeto%20Site%20Empresa/index.php?url=criarController/insert" method="post" class="formDireita">
                 <input type="text" name="name" placeholder="Nome" class="inputForm">
                 <input type="password" name="password" placeholder="Senha" class="inputForm">
                 <input type="text" name="cpf" placeholder="CPF" class="inputForm">

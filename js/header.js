@@ -1,13 +1,15 @@
 export default class Header{
     run() {
-        const headerConta = document.querySelector('.contaContainer')
-        headerConta.addEventListener('mouseover',(element)=>{
-            const contaAba = document.querySelector('.contaAba');
-            contaAba.classList.add('ativo');
-            this.liOver();
-            element.currentTarget.addEventListener('mouseleave',()=>{
-                //desativa apenas quando tirar a mouse do contaAba e contaContainer
-                contaAba.classList.remove('ativo');
+        const headerConta = document.querySelectorAll('.dropdown');
+        headerConta.forEach((itens)=>{
+            itens.addEventListener('mouseover',(element)=>{
+                const contaAba = document.querySelector('.contaAba');
+                contaAba.classList.add('ativo');
+                this.liOver();
+                element.target.addEventListener('mouseleave',()=>{
+                    //desativa apenas quando tirar a mouse do contaAba e contaContainer
+                    contaAba.classList.remove('ativo');
+                });
             });
         });
     }

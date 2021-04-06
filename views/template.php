@@ -20,9 +20,9 @@
             </nav>
         </div>
         <div class="headerContainerSecond">
-            <div class="contaContainer">
+            <div class="contaContainer dropdown">
                 <p class="textDecorationNone">Conta</p>
-                <div class="contaAba">
+                <div class="contaAba dropdown">
                     <ul>
                         <li class="liStyleNone"><a href="http://localhost/Projeto%20Site%20Empresa/index.php?url=criarController/index" class="textDecorationNone">Criar</a></li>
                         <li class="liStyleNone"><a href="" class="textDecorationNone">Status</a></li>
@@ -38,7 +38,16 @@
     </main>
 
     <footer>
-    
+        <section class="footerConteiner">
+            <div class="detalhesContainer">
+                <p class="pVermelho">Para Mais Informação</p>
+                <p class="pBranco"> ligar para : 123456789</p>
+                <p class="pBranco">Email de Contato: Lorem, ipsum.@gmail.com</p>
+            </div>
+            <div class="direitoContainer">
+                <p class="pBranco">Todos direitos para o desenvolvedor Renan</p>
+            </div>
+        </section>
     </footer>
     <script type='module' src="./js/script.js"></script>
 </body>
